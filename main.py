@@ -1,6 +1,7 @@
 import extract_pdf_text
 import abstract_information
 import google_drive_api
+from google.oauth2.service_account import Credentials
 
 # Replace this with your own service account credentials
 credentials = Credentials.from_service_account_file(
